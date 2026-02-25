@@ -1,11 +1,11 @@
 // src/App.tsx
 
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
+import reactLogo from "src/react-app/assets/react.svg";
 import viteLogo from "/vite.svg";
-import cloudflareLogo from "./assets/Cloudflare_Logo.svg";
-import honoLogo from "./assets/hono.svg";
-import "./style/App.css";
+import cloudflareLogo from "src/react-app/assets/Cloudflare_Logo.svg";
+import honoLogo from "src/react-app/assets/hono.svg";
+import "src/react-app/style/App.css";
 
 function App() {
 	const [count, setCount] = useState(0);
