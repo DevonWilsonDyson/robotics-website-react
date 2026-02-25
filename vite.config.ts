@@ -6,7 +6,7 @@ export default defineConfig({
 	plugins: [react(), cloudflare()],
 	resolve: {
 	alias: {
-		src: "/src",
+		site: "/src/react-app",
 		},
 	},
 });
