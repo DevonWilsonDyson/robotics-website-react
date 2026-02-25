@@ -43,4 +43,6 @@
 		"preview": "npm run build && vite preview"
 	},
 	"type": "module"
+
 }
+
